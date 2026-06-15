@@ -46,7 +46,8 @@ upcoming bill estimation, appliance load calculations, and proactive push
 notifications before costly threshold crossings.  
 `Next.js` `Python` `OpenAI API` `Firebase` `Vercel`
 
-**🤝 ShiftSnap**
+### **🤝 ShiftSnap**
+
 Designed and architected ShiftSnap — a production-ready, on-demand hospitality staffing marketplace platform built for the Australian market. Engineered a full-stack Turborepo monorepo spanning React Native + Expo (iOS & Android), Next.js 14 App Router (web & admin panel), and a TypeScript NestJS REST API deployed on Google Cloud Run — covering 61 screens across mobile and web. Built a mixed serverless and containerised backend using Firebase Cloud Functions, Firestore real-time database, Firebase Auth with custom role claims, and Firebase Cloud Messaging (FCM) for push notifications. 
 
 Implemented Stripe Connect marketplace payments with escrow, multi-party fee routing, webhook signature verification, and dispute handling. Engineered GPS geofence validation, a real-time shift timing engine, distributed auto-assignment locking, and a two-way Trust Score reputation system — all business logic enforced server-side in TypeScript with zero client trust. 
