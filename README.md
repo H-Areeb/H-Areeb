@@ -1,4 +1,4 @@
-<h3 align="center">Hi, I'm Areeb 👋</h3>
+<h3 align="center">Hey, I'm Areeb 👋</h3>
 
 <p align="center">
 Senior Full Stack Engineer · 7+ years building and owning production systems end-to-end
