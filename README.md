@@ -39,13 +39,20 @@ I build and own production systems end-to-end — from architecture and APIs to 
 
 ### 🚀 What I'm building
 
-**⚡ Savergy**
-A mobile PWA that uses AI to predict slab-based electricity costs and actively guide consumers away from expensive billing jumps — turning an opaque utility bill into something you can plan around.
-`React` · `Node.js` · `AI/ML` · `PWA`
+### ⚡ [Savergy](https://savergy.pk)
+AI-powered PWA that helps Pakistani households avoid electricity bill
+slab jumps through OCR bill parsing, daily consumption tracking, AI-based
+upcoming bill estimation, appliance load calculations, and proactive push
+notifications before costly threshold crossings.  
+`Next.js` `Python` `OpenAI API` `Firebase` `Vercel`
 
 **🤝 ShiftSnap**
-A marketplace mobile + web app connecting workers with venues — post a shift, get matched, get to work.
-`NestJS` · `React` · `React Native`
+Designed and architected ShiftSnap — a production-ready, on-demand hospitality staffing marketplace platform built for the Australian market. Engineered a full-stack Turborepo monorepo spanning React Native + Expo (iOS & Android), Next.js 14 App Router (web & admin panel), and a TypeScript NestJS REST API deployed on Google Cloud Run — covering 61 screens across mobile and web. Built a mixed serverless and containerised backend using Firebase Cloud Functions, Firestore real-time database, Firebase Auth with custom role claims, and Firebase Cloud Messaging (FCM) for push notifications. 
+
+Implemented Stripe Connect marketplace payments with escrow, multi-party fee routing, webhook signature verification, and dispute handling. Engineered GPS geofence validation, a real-time shift timing engine, distributed auto-assignment locking, and a two-way Trust Score reputation system — all business logic enforced server-side in TypeScript with zero client trust. 
+Architected for horizontal scalability from MVP to 1M+ users using Upstash Redis caching, Firestore compound indexes, Cloud Pub/Sub event bus, and phased NestJS microservice extraction.
+
+Tech: `React Native` `Expo` `Next.js 14` `NestJS` `TypeScript` `Firebase Firestore` `Google Cloud Run` `GCP` `Stripe Connect` `Turborepo` `Redis` `REST API` `FCM` `Node.js`
 
 ---
 
